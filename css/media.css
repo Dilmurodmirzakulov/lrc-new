@@ -19,14 +19,14 @@
     padding: 1rem 0 0 0;
   }
   .wu-first-well .input-group {
-    width: 90vw!important;
+    width: 90vw !important;
   }
-  .wu-first-well .input-group span svg{
-    height: 1rem!important;
+  .wu-first-well .input-group span svg {
+    height: 1rem !important;
   }
-.input-group-addon {
-  border-radius: 0;
-}
+  .input-group-addon {
+    border-radius: 0;
+  }
   .wu-mobile-btn {
     background-color: transparent;
   }
@@ -38,13 +38,19 @@
   .wu-mobile-link:nth-last-child(1) {
     margin-bottom: 1rem;
   }
-  .wu-mobile-link:active, .wu-mobile-link.active, .wu-mobile-link:hover {
+  .wu-mobile-link:active,
+  .wu-mobile-link.active,
+  .wu-mobile-link:hover {
     color: #fff;
   }
-
+  .wu-login-section {
+    display: unset;
+  }
+  .wu-cite-title {
+    margin-bottom: 1.5rem;
+  }
 }
 @media screen and (max-width: 768px) {
- 
   .wu-header-logo img {
     width: 130px;
   }
@@ -104,7 +110,7 @@
   }
   .wu-reference {
     font-size: 1rem;
-    width: 80%!important;
+    width: 80% !important;
   }
   .wu-books-title {
     font-size: 1.5rem;
@@ -125,10 +131,7 @@
   .wu-find-books {
     margin-bottom: 2rem !important;
   }
-  .wu-order {
-    /* display: flex; */
-    /* flex-direction: column; */
-  }
+
   .wu-ordered:nth-child(1) {
     order: 2;
   }
@@ -227,12 +230,16 @@
     bottom: 40px;
   }
   /* login page */
-  .wu-login-wrapper {
+  .wu-login-container {
     width: 100%;
+  }
+  .wu-login-wrapper {
     padding: 1rem;
     height: 95%;
+    width: 100%;
     margin: 1.25rem 0;
   }
+
   .wu-login-wrapper input {
     width: 100% !important;
   }

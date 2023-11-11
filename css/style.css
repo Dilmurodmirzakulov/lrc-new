@@ -126,10 +126,6 @@ button:focus {
   background-color: #0d263e;
   padding: 1rem 0;
 }
-.wu-navbar-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
 .wu-header-right {
   display: flex;
   flex-direction: column;
@@ -556,8 +552,7 @@ button:focus {
   display: flex;
   width: max-content;
 }
-.wu-catalog-ref:hover {
-}
+
 .wu-catalog-img a {
   max-width: 310px;
   max-height: 175px;
@@ -780,9 +775,11 @@ button:focus {
   justify-content: center;
   align-items: center;
 }
-.wu-login-section .container {
+.wu-login-container{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .wu-login-wrapper {
   border: 0px solid #000;
@@ -807,8 +804,5 @@ button:focus {
 }
 .wu-navbar-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between!important;
 }
-/* .wu-d-none {
-  display: none;
-} */
