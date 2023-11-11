@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WULib</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="all" />
+    <link href="/fonts/stylesheet.css?v=1.0.1" rel="stylesheet" media="all" />
+    <link href="/css/slick.min.css?v=1.0.1" rel="stylesheet" media="all" />
+    <link href="/css/style.css?v=1.0.4" rel="stylesheet" media="all" />
+    <link href="/css/media.css?v=1.0.4" rel="stylesheet" media="all" />
+  </head>
+
+  <body id="#top">
+    <header>
+      <nav class="navbar navbar-expand-lg wu-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/Group 7.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-column-reverse justify-content-between"
+            id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto wu-nav-links">
+              <li class="nav-item dropdown d-none d-md-block">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Resources
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="25"
+                      viewBox="0 0 24 25"
+                      fill="none">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.3982 16.1629C12.1785 16.3826 11.8224 16.3826 11.6027 16.1629L5.86788 10.428C5.64821 10.2084 5.64821 9.85227 5.86788 9.63259L6.13305 9.36739C6.35271 9.14772 6.70887 9.14772 6.92854 9.36739L12.0005 14.4393L17.0724 9.36739C17.2921 9.14772 17.6482 9.14772 17.8679 9.36739L18.1331 9.63259C18.3527 9.85227 18.3527 10.2084 18.1331 10.428L12.3982 16.1629Z"
+                        fill="#F4F4F4" />
+                    </svg>
+                  </span>
+                </a>
+                <ul class="dropdown-menu wu-dropdown">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="wu-dropdown-intro-title mb-3">
+                        Featured from News
+                      </div>
+                      <div class="mb-3 row wu-library-row">
+                        <div class="col-md-4">
+                          <div class="wu-dropdown-img">
+                            <img src="/img/dropdown-1.png" />
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="wu-dropdown-content">
+                            <h4 class="wu-dropdown-title">
+                              “HARRY POTTER” session
+                            </h4>
+                            <div class="wu-dropdown-desc">
+                              This Book Club session is facilitated by WIUT
+                              student - Amirkhon Rakhmatkariev
+                            </div>
+                            <a href="#">Read more</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-3 row wu-library-row">
+                        <div class="col-md-4">
+                          <div class="wu-dropdown-img">
+                            <img src="/img/dropdown-1.png" />
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="wu-dropdown-content">
+                            <h4 class="wu-dropdown-title">
+                              “HARRY POTTER” session
+                            </h4>
+                            <div class="wu-dropdown-desc">
+                              This Book Club session is facilitated by WIUT
+                              student - Amirkhon Rakhmatkariev
+                            </div>
+                            <a href="#">Read more</a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#"
+                        >See all news
+                        <span
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                              fill="black" /></svg></span
+                      ></a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="wu-right-side">
+                        <ul class="nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Collections</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Databases</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Dissertations</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown d-none d-md-block">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Projects
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="25"
+                      viewBox="0 0 24 25"
+                      fill="none">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.3982 16.1629C12.1785 16.3826 11.8224 16.3826 11.6027 16.1629L5.86788 10.428C5.64821 10.2084 5.64821 9.85227 5.86788 9.63259L6.13305 9.36739C6.35271 9.14772 6.70887 9.14772 6.92854 9.36739L12.0005 14.4393L17.0724 9.36739C17.2921 9.14772 17.6482 9.14772 17.8679 9.36739L18.1331 9.63259C18.3527 9.85227 18.3527 10.2084 18.1331 10.428L12.3982 16.1629Z"
+                        fill="#F4F4F4" />
+                    </svg>
+                  </span>
+                </a>
+                <ul class="dropdown-menu wu-dropdown">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="wu-dropdown-intro-title mb-3">
+                        Featured from News
+                      </div>
+                      <div class="mb-3 row wu-library-row">
+                        <div class="col-md-4">
+                          <div class="wu-dropdown-img">
+                            <img src="/img/dropdown-1.png" />
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="wu-dropdown-content">
+                            <h4 class="wu-dropdown-title">
+                              “HARRY POTTER” session
+                            </h4>
+                            <div class="wu-dropdown-desc">
+                              This Book Club session is facilitated by WIUT
+                              student - Amirkhon Rakhmatkariev
+                            </div>
+                            <a href="#">Read more</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-3 row wu-library-row">
+                        <div class="col-md-4">
+                          <div class="wu-dropdown-img">
+                            <img src="/img/dropdown-1.png" />
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="wu-dropdown-content">
+                            <h4 class="wu-dropdown-title">
+                              “HARRY POTTER” session
+                            </h4>
+                            <div class="wu-dropdown-desc">
+                              This Book Club session is facilitated by WIUT
+                              student - Amirkhon Rakhmatkariev
+                            </div>
+                            <a href="#">Read more</a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#"
+                        >See all news
+                        <span
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                              fill="black" /></svg></span
+                      ></a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="wu-right-side">
+                        <ul class="nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Book Club</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">The1Book</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Essential skills</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">IDL Course</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">O'tkan kunlar</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown d-none d-md-block">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Help
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="25"
+                      viewBox="0 0 24 25"
+                      fill="none">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.3982 16.1629C12.1785 16.3826 11.8224 16.3826 11.6027 16.1629L5.86788 10.428C5.64821 10.2084 5.64821 9.85227 5.86788 9.63259L6.13305 9.36739C6.35271 9.14772 6.70887 9.14772 6.92854 9.36739L12.0005 14.4393L17.0724 9.36739C17.2921 9.14772 17.6482 9.14772 17.8679 9.36739L18.1331 9.63259C18.3527 9.85227 18.3527 10.2084 18.1331 10.428L12.3982 16.1629Z"
+                        fill="#F4F4F4" />
+                    </svg>
+                  </span>
+                </a>
+                <ul class="dropdown-menu wu-dropdown">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="wu-dropdown-intro-title mb-3">
+                        Featured from News
+                      </div>
+                      <div class="mb-3 row wu-library-row">
+                        <div class="col-md-4">
+                          <div class="wu-dropdown-img">
+                            <img src="/img/dropdown-1.png" />
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="wu-dropdown-content">
+                            <h4 class="wu-dropdown-title">
+                              “HARRY POTTER” session
+                            </h4>
+                            <div class="wu-dropdown-desc">
+                              This Book Club session is facilitated by WIUT
+                              student - Amirkhon Rakhmatkariev
+                            </div>
+                            <a href="#">Read more</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-3 row wu-library-row">
+                        <div class="col-md-4">
+                          <div class="wu-dropdown-img">
+                            <img src="/img/dropdown-1.png" />
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="wu-dropdown-content">
+                            <h4 class="wu-dropdown-title">
+                              “HARRY POTTER” session
+                            </h4>
+                            <div class="wu-dropdown-desc">
+                              This Book Club session is facilitated by WIUT
+                              student - Amirkhon Rakhmatkariev
+                            </div>
+                            <a href="#">Read more</a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#"
+                        >See all news
+                        <span
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                              fill="black" /></svg></span
+                      ></a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="wu-right-side">
+                        <ul class="nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#"
+                              >Ask Subject Librarian</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Video Tutorials</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#"
+                              >Citing and Referencing</a
+                            >
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Research Support</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item d-none d-md-block">
+                <a class="nav-link" href="#"> About us</a>
+              </li>
+              <li class="nav-item d-md-none">
+                <div class="d-inline-flex gap-1">
+                  <button
+                    class="btn w-100 text-white wu-mobile-nav-link"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseResources"
+                    aria-expanded="false"
+                    aria-controls="collapseResources">
+                    Resources
+                  </button>
+                </div>
+                <div class="collapse" id="collapseResources">
+                  <div class="card card-body">
+                    <div class="row d-flex flex-column-reverse">
+                      <div class="col-md-9">
+                        <div class="wu-dropdown-intro-title mb-3">
+                          Featured from News
+                        </div>
+                        <div class="mb-3 row wu-library-row">
+                          <div class="col-md-4">
+                            <div class="wu-dropdown-img">
+                              <img src="/img/dropdown-1.png" />
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="wu-dropdown-content">
+                              <h4 class="wu-dropdown-title">
+                                “HARRY POTTER” session
+                              </h4>
+                              <div class="wu-dropdown-desc">
+                                This Book Club session is facilitated by WIUT
+                                student - Amirkhon Rakhmatkariev
+                              </div>
+                              <a href="#">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mb-3 row wu-library-row">
+                          <div class="col-md-4">
+                            <div class="wu-dropdown-img">
+                              <img src="/img/dropdown-1.png" />
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="wu-dropdown-content">
+                              <h4 class="wu-dropdown-title">
+                                “HARRY POTTER” session
+                              </h4>
+                              <div class="wu-dropdown-desc">
+                                This Book Club session is facilitated by WIUT
+                                student - Amirkhon Rakhmatkariev
+                              </div>
+                              <a href="#">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="#"
+                          >See all news
+                          <span
+                            ><svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none">
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                                fill="black" /></svg></span
+                        ></a>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="wu-right-side">
+                          <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Collections</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Databases</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Dissertations</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item d-md-none">
+                <div class="d-inline-flex gap-1">
+                  <button
+                    class="btn w-100 text-white wu-mobile-nav-link"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseProjects"
+                    aria-expanded="false"
+                    aria-controls="collapseProjects">
+                    Projects
+                  </button>
+                </div>
+                <div class="collapse" id="collapseProjects">
+                  <div class="card card-body">
+                    <div class="row d-flex flex-column-reverse">
+                      <div class="col-md-9">
+                        <div class="wu-dropdown-intro-title mb-3">
+                          Featured from News
+                        </div>
+                        <div class="mb-3 row wu-library-row">
+                          <div class="col-md-4">
+                            <div class="wu-dropdown-img">
+                              <img src="/img/dropdown-1.png" />
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="wu-dropdown-content">
+                              <h4 class="wu-dropdown-title">
+                                “HARRY POTTER” session
+                              </h4>
+                              <div class="wu-dropdown-desc">
+                                This Book Club session is facilitated by WIUT
+                                student - Amirkhon Rakhmatkariev
+                              </div>
+                              <a href="#">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mb-3 row wu-library-row">
+                          <div class="col-md-4">
+                            <div class="wu-dropdown-img">
+                              <img src="/img/dropdown-1.png" />
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="wu-dropdown-content">
+                              <h4 class="wu-dropdown-title">
+                                “HARRY POTTER” session
+                              </h4>
+                              <div class="wu-dropdown-desc">
+                                This Book Club session is facilitated by WIUT
+                                student - Amirkhon Rakhmatkariev
+                              </div>
+                              <a href="#">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="#"
+                          >See all news
+                          <span
+                            ><svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none">
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                                fill="black" /></svg></span
+                        ></a>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="wu-right-side">
+                          <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Book Club</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">The1Book</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Essential skills</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">IDL Course</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">O'tkan kunlar</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item d-md-none">
+                <div class="d-inline-flex gap-1">
+                  <button
+                    class="btn w-100 text-white wu-mobile-nav-link"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseHelp"
+                    aria-expanded="false"
+                    aria-controls="collapseHelp">
+                    Help
+                  </button>
+                </div>
+                <div class="collapse" id="collapseHelp">
+                  <div class="card card-body">
+                    <div class="row d-flex flex-column-reverse">
+                      <div class="col-md-9">
+                        <div class="wu-dropdown-intro-title mb-3">
+                          Featured from News
+                        </div>
+                        <div class="mb-3 row wu-library-row">
+                          <div class="col-md-4">
+                            <div class="wu-dropdown-img">
+                              <img src="/img/dropdown-1.png" />
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="wu-dropdown-content">
+                              <h4 class="wu-dropdown-title">
+                                “HARRY POTTER” session
+                              </h4>
+                              <div class="wu-dropdown-desc">
+                                This Book Club session is facilitated by WIUT
+                                student - Amirkhon Rakhmatkariev
+                              </div>
+                              <a href="#">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mb-3 row wu-library-row">
+                          <div class="col-md-4">
+                            <div class="wu-dropdown-img">
+                              <img src="/img/dropdown-1.png" />
+                            </div>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="wu-dropdown-content">
+                              <h4 class="wu-dropdown-title">
+                                “HARRY POTTER” session
+                              </h4>
+                              <div class="wu-dropdown-desc">
+                                This Book Club session is facilitated by WIUT
+                                student - Amirkhon Rakhmatkariev
+                              </div>
+                              <a href="#">Read more</a>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="#"
+                          >See all news
+                          <span
+                            ><svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none">
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                                fill="black" /></svg></span
+                        ></a>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="wu-right-side">
+                          <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"
+                                >Ask Subject Librarian</a
+                              >
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Video Tutorials</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#"
+                                >Citing and Referencing</a
+                              >
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Research Support</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item d-md-none">
+                <a class="nav-link wu-mobile-nav-link" href="#"> About us</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-light wu-header-btn">Log in</button>
+              </li>
+            </ul>
+            <form class="d-flex ms-auto w-50" role="search">
+              <div class="input-group mb-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search here"
+                  aria-label="Search here"
+                  aria-describedby="basic-addon2" />
+                <span class="input-group-text" id="basic-addon2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="37"
+                    height="37"
+                    viewBox="0 0 37 37"
+                    fill="none">
+                    <path
+                      d="M14.5918 3.64586C11.6893 3.64586 8.90569 4.79887 6.85332 6.85124C4.80096 8.90361 3.64795 11.6872 3.64795 14.5897C3.64795 17.4922 4.80096 20.2758 6.85332 22.3282C8.90569 24.3805 11.6893 25.5335 14.5918 25.5335C17.4943 25.5335 20.2779 24.3805 22.3303 22.3282C24.3826 20.2758 25.5356 17.4922 25.5356 14.5897C25.5356 11.6872 24.3826 8.90361 22.3303 6.85124C20.2779 4.79887 17.4943 3.64586 14.5918 3.64586ZM9.01339e-08 14.5897C0.000332558 12.2675 0.554886 9.97897 1.61757 7.91422C2.68026 5.84947 4.22039 4.06816 6.10996 2.71834C7.99953 1.36852 10.184 0.48917 12.4817 0.153371C14.7795 -0.182428 17.1242 0.0350218 19.3211 0.78765C21.5179 1.54028 23.5034 2.80635 25.1125 4.48063C26.7216 6.15492 27.9079 8.18908 28.5727 10.414C29.2376 12.639 29.3618 14.9905 28.9351 17.2731C28.5084 19.5558 27.543 21.7036 26.1193 23.5381L35.945 33.3639C36.2773 33.7079 36.4611 34.1686 36.457 34.6468C36.4528 35.1251 36.261 35.5826 35.9228 35.9207C35.5847 36.2589 35.1272 36.4507 34.6489 36.4549C34.1707 36.4591 33.71 36.2752 33.3659 35.943L23.5402 26.1172C21.3833 27.7918 18.7997 28.8275 16.0834 29.1067C13.367 29.3858 10.6268 28.8971 8.17441 27.6962C5.72199 26.4953 3.65577 24.6303 2.2107 22.3133C0.76563 19.9963 -0.000303364 17.3204 9.01339e-08 14.5897Z"
+                      fill="black" />
+                  </svg>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        class="container py-3 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="wu-cite-title text-center">
+          Struggling with referencing and citation?
+        </h1>
+        <a class="btn wu-reference" href="#">Learn to cite right</a>
+      </div>
+      <section class="wu-find-books mb-5">
+        <div class="container">
+          <div class="wu-wrapper">
+            <div class="wu-find-books-div p-3">
+              <h3 class="wu-books-title">Find books with OPAC</h3>
+              <div class="wu-books-desc mb-2">
+                Furthermore, via OPAC you can check your library account,
+                reserve items, renew borrowed ones, and much more.
+              </div>
+              <a class="btn wu-reference w-75 mb-2" href="#">Search</a>
+              <div class="wu-reference-video d-flex align-items-center">
+                <span class="me-2"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none">
+                    <path
+                      d="M14 0C6.265 0 0 6.265 0 14C0 21.735 6.265 28 14 28C21.735 28 28 21.735 28 14C28 6.265 21.735 0 14 0ZM10.5 7L21 14L10.5 21V7Z"
+                      fill="black" />
+                  </svg>
+                </span>
+                Watch this video to learn more features of OPAC
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="wu-activities">
+        <div class="container">
+          <h1 class="wu-cite-title text-center mb-4">Our activities</h1>
+          <div class="row">
+            <div
+              class="col-md-3 col-6 d-flex flex-column align-items-center wu-side-col">
+              <a href="#" class="wu-refs">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 48 48"
+                    fill="none">
+                    <path
+                      d="M35.4484 0.780773C35.9485 0.280844 36.6267 0 37.3338 0C38.0409 0 38.7191 0.280844 39.2191 0.780773L47.2192 8.78087C47.7192 9.28095 48 9.95911 48 10.6662C48 11.3733 47.7192 12.0515 47.2192 12.5516L23.2189 36.5519C22.719 37.052 22.0408 37.3331 21.3336 37.3332H13.3335C12.6262 37.3332 11.948 37.0523 11.4479 36.5522C10.9477 36.052 10.6668 35.3738 10.6668 34.6665V26.6664C10.6669 25.9592 10.948 25.281 11.4481 24.7811L35.4484 0.780773ZM16.0002 27.7704V31.9998H20.2296L41.5632 10.6662L37.3338 6.43684L16.0002 27.7704ZM0 10.6662C0 9.25172 0.56191 7.89515 1.56212 6.89494C2.56232 5.89474 3.91889 5.33283 5.3334 5.33283H18.6669C19.3741 5.33283 20.0524 5.61378 20.5525 6.11388C21.0526 6.61399 21.3336 7.29227 21.3336 7.99953C21.3336 8.70678 21.0526 9.38506 20.5525 9.88517C20.0524 10.3853 19.3741 10.6662 18.6669 10.6662H5.3334V42.6666H37.3338V29.3331C37.3338 28.6259 37.6147 27.9476 38.1148 27.4475C38.6149 26.9474 39.2932 26.6664 40.0005 26.6664C40.7077 26.6664 41.386 26.9474 41.8861 27.4475C42.3862 27.9476 42.6672 28.6259 42.6672 29.3331V42.6666C42.6672 44.0811 42.1053 45.4377 41.1051 46.4379C40.1048 47.4381 38.7483 48 37.3338 48H5.3334C3.91889 48 2.56232 47.4381 1.56212 46.4379C0.56191 45.4377 0 44.0811 0 42.6666V10.6662Z"
+                      fill="#0D0D0D" />
+                  </svg>
+                </span>
+                Database
+              </a>
+              <a href="#" class="wu-refs">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 48 48"
+                    fill="none">
+                    <path
+                      d="M35.4484 0.780773C35.9485 0.280844 36.6267 0 37.3338 0C38.0409 0 38.7191 0.280844 39.2191 0.780773L47.2192 8.78087C47.7192 9.28095 48 9.95911 48 10.6662C48 11.3733 47.7192 12.0515 47.2192 12.5516L23.2189 36.5519C22.719 37.052 22.0408 37.3331 21.3336 37.3332H13.3335C12.6262 37.3332 11.948 37.0523 11.4479 36.5522C10.9477 36.052 10.6668 35.3738 10.6668 34.6665V26.6664C10.6669 25.9592 10.948 25.281 11.4481 24.7811L35.4484 0.780773ZM16.0002 27.7704V31.9998H20.2296L41.5632 10.6662L37.3338 6.43684L16.0002 27.7704ZM0 10.6662C0 9.25172 0.56191 7.89515 1.56212 6.89494C2.56232 5.89474 3.91889 5.33283 5.3334 5.33283H18.6669C19.3741 5.33283 20.0524 5.61378 20.5525 6.11388C21.0526 6.61399 21.3336 7.29227 21.3336 7.99953C21.3336 8.70678 21.0526 9.38506 20.5525 9.88517C20.0524 10.3853 19.3741 10.6662 18.6669 10.6662H5.3334V42.6666H37.3338V29.3331C37.3338 28.6259 37.6147 27.9476 38.1148 27.4475C38.6149 26.9474 39.2932 26.6664 40.0005 26.6664C40.7077 26.6664 41.386 26.9474 41.8861 27.4475C42.3862 27.9476 42.6672 28.6259 42.6672 29.3331V42.6666C42.6672 44.0811 42.1053 45.4377 41.1051 46.4379C40.1048 47.4381 38.7483 48 37.3338 48H5.3334C3.91889 48 2.56232 47.4381 1.56212 46.4379C0.56191 45.4377 0 44.0811 0 42.6666V10.6662Z"
+                      fill="#0D0D0D" />
+                  </svg>
+                </span>
+                Web OPAC
+              </a>
+              <a href="#" class="wu-refs">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 48 48"
+                    fill="none">
+                    <path
+                      d="M35.4484 0.780773C35.9485 0.280844 36.6267 0 37.3338 0C38.0409 0 38.7191 0.280844 39.2191 0.780773L47.2192 8.78087C47.7192 9.28095 48 9.95911 48 10.6662C48 11.3733 47.7192 12.0515 47.2192 12.5516L23.2189 36.5519C22.719 37.052 22.0408 37.3331 21.3336 37.3332H13.3335C12.6262 37.3332 11.948 37.0523 11.4479 36.5522C10.9477 36.052 10.6668 35.3738 10.6668 34.6665V26.6664C10.6669 25.9592 10.948 25.281 11.4481 24.7811L35.4484 0.780773ZM16.0002 27.7704V31.9998H20.2296L41.5632 10.6662L37.3338 6.43684L16.0002 27.7704ZM0 10.6662C0 9.25172 0.56191 7.89515 1.56212 6.89494C2.56232 5.89474 3.91889 5.33283 5.3334 5.33283H18.6669C19.3741 5.33283 20.0524 5.61378 20.5525 6.11388C21.0526 6.61399 21.3336 7.29227 21.3336 7.99953C21.3336 8.70678 21.0526 9.38506 20.5525 9.88517C20.0524 10.3853 19.3741 10.6662 18.6669 10.6662H5.3334V42.6666H37.3338V29.3331C37.3338 28.6259 37.6147 27.9476 38.1148 27.4475C38.6149 26.9474 39.2932 26.6664 40.0005 26.6664C40.7077 26.6664 41.386 26.9474 41.8861 27.4475C42.3862 27.9476 42.6672 28.6259 42.6672 29.3331V42.6666C42.6672 44.0811 42.1053 45.4377 41.1051 46.4379C40.1048 47.4381 38.7483 48 37.3338 48H5.3334C3.91889 48 2.56232 47.4381 1.56212 46.4379C0.56191 45.4377 0 44.0811 0 42.6666V10.6662Z"
+                      fill="#0D0D0D" />
+                  </svg>
+                </span>
+                Ask Subject Librarian
+              </a>
+            </div>
+            <div class="col-md-6 d-flex flex-column align-items-center">
+              <div class="text-center">
+                Keep up to date with our events and services
+              </div>
+              <div class="wu-activities-img mb-3">
+                <img class="img-fluid" src="img/activities.png" alt="" />
+              </div>
+              <a class="btn wu-reference w-75 mb-3" href="#">Book Сlub</a>
+              <a class="btn wu-reference w-75 mb-3" href="#"
+                >Research Workshop</a
+              >
+            </div>
+            <div
+              class="col-md-3 col-6 d-flex flex-column align-items-center wu-side-col">
+              <a href="#" class="wu-refs">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 48 48"
+                    fill="none">
+                    <path
+                      d="M35.4484 0.780773C35.9485 0.280844 36.6267 0 37.3338 0C38.0409 0 38.7191 0.280844 39.2191 0.780773L47.2192 8.78087C47.7192 9.28095 48 9.95911 48 10.6662C48 11.3733 47.7192 12.0515 47.2192 12.5516L23.2189 36.5519C22.719 37.052 22.0408 37.3331 21.3336 37.3332H13.3335C12.6262 37.3332 11.948 37.0523 11.4479 36.5522C10.9477 36.052 10.6668 35.3738 10.6668 34.6665V26.6664C10.6669 25.9592 10.948 25.281 11.4481 24.7811L35.4484 0.780773ZM16.0002 27.7704V31.9998H20.2296L41.5632 10.6662L37.3338 6.43684L16.0002 27.7704ZM0 10.6662C0 9.25172 0.56191 7.89515 1.56212 6.89494C2.56232 5.89474 3.91889 5.33283 5.3334 5.33283H18.6669C19.3741 5.33283 20.0524 5.61378 20.5525 6.11388C21.0526 6.61399 21.3336 7.29227 21.3336 7.99953C21.3336 8.70678 21.0526 9.38506 20.5525 9.88517C20.0524 10.3853 19.3741 10.6662 18.6669 10.6662H5.3334V42.6666H37.3338V29.3331C37.3338 28.6259 37.6147 27.9476 38.1148 27.4475C38.6149 26.9474 39.2932 26.6664 40.0005 26.6664C40.7077 26.6664 41.386 26.9474 41.8861 27.4475C42.3862 27.9476 42.6672 28.6259 42.6672 29.3331V42.6666C42.6672 44.0811 42.1053 45.4377 41.1051 46.4379C40.1048 47.4381 38.7483 48 37.3338 48H5.3334C3.91889 48 2.56232 47.4381 1.56212 46.4379C0.56191 45.4377 0 44.0811 0 42.6666V10.6662Z"
+                      fill="#0D0D0D" />
+                  </svg>
+                </span>
+                WIUT Citation and Referencing Guide
+              </a>
+              <a href="#" class="wu-refs">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 48 48"
+                    fill="none">
+                    <path
+                      d="M35.4484 0.780773C35.9485 0.280844 36.6267 0 37.3338 0C38.0409 0 38.7191 0.280844 39.2191 0.780773L47.2192 8.78087C47.7192 9.28095 48 9.95911 48 10.6662C48 11.3733 47.7192 12.0515 47.2192 12.5516L23.2189 36.5519C22.719 37.052 22.0408 37.3331 21.3336 37.3332H13.3335C12.6262 37.3332 11.948 37.0523 11.4479 36.5522C10.9477 36.052 10.6668 35.3738 10.6668 34.6665V26.6664C10.6669 25.9592 10.948 25.281 11.4481 24.7811L35.4484 0.780773ZM16.0002 27.7704V31.9998H20.2296L41.5632 10.6662L37.3338 6.43684L16.0002 27.7704ZM0 10.6662C0 9.25172 0.56191 7.89515 1.56212 6.89494C2.56232 5.89474 3.91889 5.33283 5.3334 5.33283H18.6669C19.3741 5.33283 20.0524 5.61378 20.5525 6.11388C21.0526 6.61399 21.3336 7.29227 21.3336 7.99953C21.3336 8.70678 21.0526 9.38506 20.5525 9.88517C20.0524 10.3853 19.3741 10.6662 18.6669 10.6662H5.3334V42.6666H37.3338V29.3331C37.3338 28.6259 37.6147 27.9476 38.1148 27.4475C38.6149 26.9474 39.2932 26.6664 40.0005 26.6664C40.7077 26.6664 41.386 26.9474 41.8861 27.4475C42.3862 27.9476 42.6672 28.6259 42.6672 29.3331V42.6666C42.6672 44.0811 42.1053 45.4377 41.1051 46.4379C40.1048 47.4381 38.7483 48 37.3338 48H5.3334C3.91889 48 2.56232 47.4381 1.56212 46.4379C0.56191 45.4377 0 44.0811 0 42.6666V10.6662Z"
+                      fill="#0D0D0D" />
+                  </svg>
+                </span>
+                Information intelligence
+              </a>
+              <a href="#" class="wu-refs">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 48 48"
+                    fill="none">
+                    <path
+                      d="M35.4484 0.780773C35.9485 0.280844 36.6267 0 37.3338 0C38.0409 0 38.7191 0.280844 39.2191 0.780773L47.2192 8.78087C47.7192 9.28095 48 9.95911 48 10.6662C48 11.3733 47.7192 12.0515 47.2192 12.5516L23.2189 36.5519C22.719 37.052 22.0408 37.3331 21.3336 37.3332H13.3335C12.6262 37.3332 11.948 37.0523 11.4479 36.5522C10.9477 36.052 10.6668 35.3738 10.6668 34.6665V26.6664C10.6669 25.9592 10.948 25.281 11.4481 24.7811L35.4484 0.780773ZM16.0002 27.7704V31.9998H20.2296L41.5632 10.6662L37.3338 6.43684L16.0002 27.7704ZM0 10.6662C0 9.25172 0.56191 7.89515 1.56212 6.89494C2.56232 5.89474 3.91889 5.33283 5.3334 5.33283H18.6669C19.3741 5.33283 20.0524 5.61378 20.5525 6.11388C21.0526 6.61399 21.3336 7.29227 21.3336 7.99953C21.3336 8.70678 21.0526 9.38506 20.5525 9.88517C20.0524 10.3853 19.3741 10.6662 18.6669 10.6662H5.3334V42.6666H37.3338V29.3331C37.3338 28.6259 37.6147 27.9476 38.1148 27.4475C38.6149 26.9474 39.2932 26.6664 40.0005 26.6664C40.7077 26.6664 41.386 26.9474 41.8861 27.4475C42.3862 27.9476 42.6672 28.6259 42.6672 29.3331V42.6666C42.6672 44.0811 42.1053 45.4377 41.1051 46.4379C40.1048 47.4381 38.7483 48 37.3338 48H5.3334C3.91889 48 2.56232 47.4381 1.56212 46.4379C0.56191 45.4377 0 44.0811 0 42.6666V10.6662Z"
+                      fill="#0D0D0D" />
+                  </svg>
+                </span>
+                Collections
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="wu-news mb-5">
+        <div class="container d-flex flex-column align-items-center">
+          <h1 class="wu-cite-title text-center mb-4">News feed</h1>
+          <div class="row mb-5">
+            <div class="col-md-4">
+              <div class="wu-news-wrapper">
+                <a href="#">
+                  <div class="wu-news-img">
+                    <img class="img-fluid" src="img/news-img-1.jpg" />
+                  </div>
+                  <div class="wu-news-backdrop p-3">
+                    <div class="wu-news-title mb-2">“HARRY POTTER” session</div>
+                    <a class="wu-news-link" href="#"
+                      >Read more
+                      <span
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                            fill="white" /></svg></span
+                    ></a>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wu-news-wrapper">
+                <a href="#">
+                  <div class="wu-news-img">
+                    <img class="img-fluid" src="img/news-img-1.jpg" />
+                  </div>
+                  <div class="wu-news-backdrop p-3">
+                    <div class="wu-news-title mb-2">
+                      Who's with us in the Ibrat QUIZ?!
+                    </div>
+                    <a class="wu-news-link" href="#"
+                      >Read more
+                      <span
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                            fill="white" /></svg></span
+                    ></a>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wu-news-wrapper">
+                <a href="#">
+                  <div class="wu-news-img">
+                    <img class="img-fluid" src="img/news-img-1.jpg" />
+                  </div>
+                  <div class="wu-news-backdrop p-3">
+                    <div class="wu-news-title mb-2">
+                      🎄🎅 New Year mode on ✅
+                    </div>
+                    <a class="wu-news-link" href="#"
+                      >Read more
+                      <span
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                            fill="white" /></svg></span
+                    ></a>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a class="btn wu-reference" href="#">More news</a>
+        </div>
+      </section>
+      <section class="wu-services mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-6">
+              <div class="wu-services-wrapper">
+                <div class="wu-services-img">
+                  <img class="img-fluid" src="img/services-1.jpg" />
+                </div>
+                <div class="wu-services-backdrop">
+                  <div href="#" class="wu-services-backdrop-title">PC Lab</div>
+                  <div class="wu-services-backdrop-desc text-center">
+                    The library has modern computers and high-speed internet
+                    access for the convenience of visitors
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="wu-services-wrapper">
+                <div class="wu-services-img">
+                  <img class="img-fluid" src="img/services-2.jpg" />
+                </div>
+                <div class="wu-services-backdrop">
+                  <div href="#" class="wu-services-backdrop-title">
+                    Books Lending
+                  </div>
+                  <div class="wu-services-backdrop-desc text-center">
+                    The library has modern computers and high-speed internet
+                    access for the convenience of visitors
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="wu-services-wrapper">
+                <div class="wu-services-img">
+                  <img class="img-fluid" src="img/services-3.jpg" />
+                </div>
+                <div class="wu-services-backdrop">
+                  <div href="#" class="wu-services-backdrop-title">
+                    Study Room
+                  </div>
+                  <div class="wu-services-backdrop-desc text-center">
+                    The library has modern computers and high-speed internet
+                    access for the convenience of visitors
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="wu-services-wrapper">
+                <div class="wu-services-img">
+                  <img class="img-fluid" src="img/services-4.jpg" />
+                </div>
+                <div class="wu-services-backdrop">
+                  <div href="#" class="wu-services-backdrop-title">
+                    Print/Copy/Scan
+                  </div>
+                  <div class="wu-services-backdrop-desc text-center">
+                    The library has modern computers and high-speed internet
+                    access for the convenience of visitors
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="wu-inDemand-books mb-5">
+        <div class="container">
+          <div class="wu-wrapper">
+            <div class="wu-inDemand-books-div text-end p-3">
+              <div class="wu-books-title mb-2">High demand books</div>
+              <div class="wu-books-desc mb-2">
+                Here we announce monthly high demand textbooks and
+                fiction/nonfiction books
+              </div>
+              <a class="btn wu-reference w-75 mb-2" href="#"
+                >Academic Textbooks</a
+              >
+              <a class="btn wu-reference w-75" href="#">Fiction/Non-fiction</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="wu-catalog mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="wu-catalog-wrapper">
+                <div class="wu-catalog-title mb-2">
+                  <a href="#">“How to” guides</a>
+                </div>
+                <div class="wu-catalog-img mb-3">
+                  <a href="#">
+                    <img class="img-fluid" src="img/catalog-1.png" />
+                  </a>
+                </div>
+                <div class="wu-catalog-desc mb-2">
+                  The guides produced by the library to help users learn about
+                  and make use of the Library
+                </div>
+                <a class="wu-catalog-ref" href="#">
+                  See all guides
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                        fill="black" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wu-catalog-wrapper">
+                <div class="wu-catalog-title mb-2">
+                  <a href="#">The1Book series</a>
+                </div>
+                <div class="wu-catalog-img mb-3">
+                  <a href="#">
+                    <img class="img-fluid" src="img/catalog-2.png" />
+                  </a>
+                </div>
+                <div class="wu-catalog-desc mb-2">
+                  Feel our atmosphere with this photos
+                </div>
+                <a class="wu-catalog-ref" href="#">
+                  See all guides
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                        fill="black" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wu-catalog-wrapper">
+                <div class="wu-catalog-title mb-2">
+                  <a href="#">Our Photos</a>
+                </div>
+                <div class="wu-catalog-img mb-3">
+                  <a href="#">
+                    <img class="img-fluid" src="img/catalog-3.png" />
+                  </a>
+                </div>
+                <div class="wu-catalog-desc mb-2">
+                  Feel our atmosphere with this photos
+                </div>
+                <a class="wu-catalog-ref" href="#">
+                  See all guides
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                        fill="black" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="wu-comments-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col">
+              <div class="ps-3 wu-comments-title-wrapper">
+                <h1 class="wu-comments-title">What Our Student's Say</h1>
+              </div>
+            </div>
+            <div class="col-md-8 col">
+              <div class="row wu-comments-slider">
+                <div class="col-md-6 wu-comments-slider-item">
+                  <div class="wu-comment-wrapper mb-2">
+                    <div class="wu-comment">
+                      Our LRC is the best among all the existing ones
+                    </div>
+                    <div class="wu-comment-img">
+                      <img class="img-fluid" src="img/comments-1.png" />
+                    </div>
+                  </div>
+                  <div class="wu-comment-name mb-1">Anisa Temirova</div>
+                  <div class="wu-comment-field mb-2">Law</div>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="37"
+                      height="37"
+                      viewBox="0 0 37 37"
+                      fill="none">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.7463 4.20916C11.7965 4.57023 10.3141 5.36342 9.2414 6.08447C7.95803 6.94716 6.19475 8.5925 5.31664 9.74676C3.73939 11.8199 2.91427 13.9285 2.44015 17.0981C2.12128 19.2295 2.0986 19.7706 2.06918 25.9569C2.0379 32.5363 2.00938 32.1233 2.53072 32.6446C3.03375 33.1476 2.73615 33.125 8.86337 33.125C14.7813 33.125 14.5741 33.1371 15.063 32.7642C15.1879 32.669 15.3681 32.4583 15.4635 32.296L15.6369 32.0009L15.6543 26.3953L15.6718 20.7898L15.533 20.4671C15.37 20.0883 14.9228 19.6662 14.5849 19.5723C14.4465 19.5339 13.2924 19.5076 11.7346 19.5074L9.11698 19.507V19.1031C9.11698 18.1834 9.37919 16.6227 9.70744 15.5886C10.1438 14.2138 10.8096 13.1053 11.774 12.148C12.5609 11.367 13.472 10.7467 14.7528 10.12C15.6894 9.66184 15.8298 9.54814 16.0872 9.03997C16.1553 8.9054 16.2007 8.66554 16.203 8.42844C16.2062 8.08523 16.1634 7.94584 15.8471 7.26873C14.6431 4.69215 14.5447 4.52867 14.0418 4.27211C13.673 4.08396 13.1434 4.05827 12.7463 4.20916ZM31.7417 4.16208C31.3857 4.22779 29.7118 5.04693 28.8053 5.59897C26.0554 7.2738 23.9088 9.51763 22.6527 12.0304C21.7342 13.8677 21.2792 15.7237 20.9588 18.9411C20.8736 19.796 20.8492 21.0744 20.8262 25.8922C20.7944 32.5437 20.7656 32.1225 21.2877 32.6446C21.7907 33.1476 21.4935 33.125 27.617 33.125C33.5856 33.125 33.3764 33.138 33.8618 32.738C33.9891 32.633 34.1681 32.3969 34.2596 32.2132L34.426 31.8793L34.4246 26.3195C34.4232 20.8649 34.4207 20.7541 34.2923 20.4705C34.142 20.1382 33.9126 19.8794 33.5909 19.6791C33.3713 19.5423 33.3023 19.5383 30.6049 19.507L27.8436 19.4749L27.8632 18.961C27.9139 17.6337 28.2343 16.054 28.6793 14.9381C29.1369 13.7907 29.6849 12.9538 30.5165 12.1324C31.2733 11.3848 32.046 10.8521 33.2589 10.2418C34.4216 9.65683 34.7466 9.38723 34.8782 8.89852C35.034 8.32008 34.952 8.02864 34.1853 6.43494C33.7574 5.54553 33.3777 4.84523 33.2313 4.67539C32.8592 4.24391 32.3148 4.05628 31.7417 4.16208Z"
+                        fill="#C42443" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="col-md-6 wu-comments-slider-item">
+                  <div class="wu-comment-wrapper mb-2">
+                    <div class="wu-comment">
+                      Our LRC is the best among all the existing ones
+                    </div>
+                    <div class="wu-comment-img">
+                      <img class="img-fluid" src="img/comments-1.png" />
+                    </div>
+                  </div>
+                  <div class="wu-comment-name mb-1">Anisa Temirova</div>
+                  <div class="wu-comment-field mb-2">Law</div>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="37"
+                      height="37"
+                      viewBox="0 0 37 37"
+                      fill="none">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.7463 4.20916C11.7965 4.57023 10.3141 5.36342 9.2414 6.08447C7.95803 6.94716 6.19475 8.5925 5.31664 9.74676C3.73939 11.8199 2.91427 13.9285 2.44015 17.0981C2.12128 19.2295 2.0986 19.7706 2.06918 25.9569C2.0379 32.5363 2.00938 32.1233 2.53072 32.6446C3.03375 33.1476 2.73615 33.125 8.86337 33.125C14.7813 33.125 14.5741 33.1371 15.063 32.7642C15.1879 32.669 15.3681 32.4583 15.4635 32.296L15.6369 32.0009L15.6543 26.3953L15.6718 20.7898L15.533 20.4671C15.37 20.0883 14.9228 19.6662 14.5849 19.5723C14.4465 19.5339 13.2924 19.5076 11.7346 19.5074L9.11698 19.507V19.1031C9.11698 18.1834 9.37919 16.6227 9.70744 15.5886C10.1438 14.2138 10.8096 13.1053 11.774 12.148C12.5609 11.367 13.472 10.7467 14.7528 10.12C15.6894 9.66184 15.8298 9.54814 16.0872 9.03997C16.1553 8.9054 16.2007 8.66554 16.203 8.42844C16.2062 8.08523 16.1634 7.94584 15.8471 7.26873C14.6431 4.69215 14.5447 4.52867 14.0418 4.27211C13.673 4.08396 13.1434 4.05827 12.7463 4.20916ZM31.7417 4.16208C31.3857 4.22779 29.7118 5.04693 28.8053 5.59897C26.0554 7.2738 23.9088 9.51763 22.6527 12.0304C21.7342 13.8677 21.2792 15.7237 20.9588 18.9411C20.8736 19.796 20.8492 21.0744 20.8262 25.8922C20.7944 32.5437 20.7656 32.1225 21.2877 32.6446C21.7907 33.1476 21.4935 33.125 27.617 33.125C33.5856 33.125 33.3764 33.138 33.8618 32.738C33.9891 32.633 34.1681 32.3969 34.2596 32.2132L34.426 31.8793L34.4246 26.3195C34.4232 20.8649 34.4207 20.7541 34.2923 20.4705C34.142 20.1382 33.9126 19.8794 33.5909 19.6791C33.3713 19.5423 33.3023 19.5383 30.6049 19.507L27.8436 19.4749L27.8632 18.961C27.9139 17.6337 28.2343 16.054 28.6793 14.9381C29.1369 13.7907 29.6849 12.9538 30.5165 12.1324C31.2733 11.3848 32.046 10.8521 33.2589 10.2418C34.4216 9.65683 34.7466 9.38723 34.8782 8.89852C35.034 8.32008 34.952 8.02864 34.1853 6.43494C33.7574 5.54553 33.3777 4.84523 33.2313 4.67539C32.8592 4.24391 32.3148 4.05628 31.7417 4.16208Z"
+                        fill="#C42443" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="col-md-6 wu-comments-slider-item">
+                  <div class="wu-comment-wrapper mb-2">
+                    <div class="wu-comment">
+                      Our LRC is the best among all the existing ones
+                    </div>
+                    <div class="wu-comment-img">
+                      <img class="img-fluid" src="img/comments-1.png" />
+                    </div>
+                  </div>
+                  <div class="wu-comment-name mb-1">Anisa Temirova</div>
+                  <div class="wu-comment-field mb-2">Law</div>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="37"
+                      height="37"
+                      viewBox="0 0 37 37"
+                      fill="none">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.7463 4.20916C11.7965 4.57023 10.3141 5.36342 9.2414 6.08447C7.95803 6.94716 6.19475 8.5925 5.31664 9.74676C3.73939 11.8199 2.91427 13.9285 2.44015 17.0981C2.12128 19.2295 2.0986 19.7706 2.06918 25.9569C2.0379 32.5363 2.00938 32.1233 2.53072 32.6446C3.03375 33.1476 2.73615 33.125 8.86337 33.125C14.7813 33.125 14.5741 33.1371 15.063 32.7642C15.1879 32.669 15.3681 32.4583 15.4635 32.296L15.6369 32.0009L15.6543 26.3953L15.6718 20.7898L15.533 20.4671C15.37 20.0883 14.9228 19.6662 14.5849 19.5723C14.4465 19.5339 13.2924 19.5076 11.7346 19.5074L9.11698 19.507V19.1031C9.11698 18.1834 9.37919 16.6227 9.70744 15.5886C10.1438 14.2138 10.8096 13.1053 11.774 12.148C12.5609 11.367 13.472 10.7467 14.7528 10.12C15.6894 9.66184 15.8298 9.54814 16.0872 9.03997C16.1553 8.9054 16.2007 8.66554 16.203 8.42844C16.2062 8.08523 16.1634 7.94584 15.8471 7.26873C14.6431 4.69215 14.5447 4.52867 14.0418 4.27211C13.673 4.08396 13.1434 4.05827 12.7463 4.20916ZM31.7417 4.16208C31.3857 4.22779 29.7118 5.04693 28.8053 5.59897C26.0554 7.2738 23.9088 9.51763 22.6527 12.0304C21.7342 13.8677 21.2792 15.7237 20.9588 18.9411C20.8736 19.796 20.8492 21.0744 20.8262 25.8922C20.7944 32.5437 20.7656 32.1225 21.2877 32.6446C21.7907 33.1476 21.4935 33.125 27.617 33.125C33.5856 33.125 33.3764 33.138 33.8618 32.738C33.9891 32.633 34.1681 32.3969 34.2596 32.2132L34.426 31.8793L34.4246 26.3195C34.4232 20.8649 34.4207 20.7541 34.2923 20.4705C34.142 20.1382 33.9126 19.8794 33.5909 19.6791C33.3713 19.5423 33.3023 19.5383 30.6049 19.507L27.8436 19.4749L27.8632 18.961C27.9139 17.6337 28.2343 16.054 28.6793 14.9381C29.1369 13.7907 29.6849 12.9538 30.5165 12.1324C31.2733 11.3848 32.046 10.8521 33.2589 10.2418C34.4216 9.65683 34.7466 9.38723 34.8782 8.89852C35.034 8.32008 34.952 8.02864 34.1853 6.43494C33.7574 5.54553 33.3777 4.84523 33.2313 4.67539C32.8592 4.24391 32.3148 4.05628 31.7417 4.16208Z"
+                        fill="#C42443" />
+                    </svg>
+                  </span>
+                </div>
+                <div class="col-md-6 wu-comments-slider-item">
+                  <div class="wu-comment-wrapper mb-2">
+                    <div class="wu-comment">
+                      Our LRC is the best among all the existing ones
+                    </div>
+                    <div class="wu-comment-img">
+                      <img class="img-fluid" src="img/comments-1.png" />
+                    </div>
+                  </div>
+                  <div class="wu-comment-name mb-1">Anisa Temirova</div>
+                  <div class="wu-comment-field mb-2">Law</div>
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="37"
+                      height="37"
+                      viewBox="0 0 37 37"
+                      fill="none">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12.7463 4.20916C11.7965 4.57023 10.3141 5.36342 9.2414 6.08447C7.95803 6.94716 6.19475 8.5925 5.31664 9.74676C3.73939 11.8199 2.91427 13.9285 2.44015 17.0981C2.12128 19.2295 2.0986 19.7706 2.06918 25.9569C2.0379 32.5363 2.00938 32.1233 2.53072 32.6446C3.03375 33.1476 2.73615 33.125 8.86337 33.125C14.7813 33.125 14.5741 33.1371 15.063 32.7642C15.1879 32.669 15.3681 32.4583 15.4635 32.296L15.6369 32.0009L15.6543 26.3953L15.6718 20.7898L15.533 20.4671C15.37 20.0883 14.9228 19.6662 14.5849 19.5723C14.4465 19.5339 13.2924 19.5076 11.7346 19.5074L9.11698 19.507V19.1031C9.11698 18.1834 9.37919 16.6227 9.70744 15.5886C10.1438 14.2138 10.8096 13.1053 11.774 12.148C12.5609 11.367 13.472 10.7467 14.7528 10.12C15.6894 9.66184 15.8298 9.54814 16.0872 9.03997C16.1553 8.9054 16.2007 8.66554 16.203 8.42844C16.2062 8.08523 16.1634 7.94584 15.8471 7.26873C14.6431 4.69215 14.5447 4.52867 14.0418 4.27211C13.673 4.08396 13.1434 4.05827 12.7463 4.20916ZM31.7417 4.16208C31.3857 4.22779 29.7118 5.04693 28.8053 5.59897C26.0554 7.2738 23.9088 9.51763 22.6527 12.0304C21.7342 13.8677 21.2792 15.7237 20.9588 18.9411C20.8736 19.796 20.8492 21.0744 20.8262 25.8922C20.7944 32.5437 20.7656 32.1225 21.2877 32.6446C21.7907 33.1476 21.4935 33.125 27.617 33.125C33.5856 33.125 33.3764 33.138 33.8618 32.738C33.9891 32.633 34.1681 32.3969 34.2596 32.2132L34.426 31.8793L34.4246 26.3195C34.4232 20.8649 34.4207 20.7541 34.2923 20.4705C34.142 20.1382 33.9126 19.8794 33.5909 19.6791C33.3713 19.5423 33.3023 19.5383 30.6049 19.507L27.8436 19.4749L27.8632 18.961C27.9139 17.6337 28.2343 16.054 28.6793 14.9381C29.1369 13.7907 29.6849 12.9538 30.5165 12.1324C31.2733 11.3848 32.046 10.8521 33.2589 10.2418C34.4216 9.65683 34.7466 9.38723 34.8782 8.89852C35.034 8.32008 34.952 8.02864 34.1853 6.43494C33.7574 5.54553 33.3777 4.84523 33.2313 4.67539C32.8592 4.24391 32.3148 4.05628 31.7417 4.16208Z"
+                        fill="#C42443" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="wu-databases mb-5">
+        <div class="container">
+          <h1 class="wu-cite-title text-center">Our Databases</h1>
+          <div
+            class="d-flex justify-content-center align-items-center flex-wrap">
+            <img src="img/data-base-1.png" alt="database" />
+            <img src="img/data-base-2.png" alt="database" />
+            <img src="img/data-base-3.png" alt="database" />
+            <img src="img/data-base-1.png" alt="database" />
+            <img src="img/data-base-2.png" alt="database" />
+            <img src="img/data-base-3.png" alt="database" />
+            <img src="img/data-base-1.png" alt="database" />
+            <img src="img/data-base-2.png" alt="database" />
+            <img src="img/data-base-3.png" alt="database" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="wu-footer">
+      <div class="container">
+        <div class="wu-footer-container mb-4">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="wu-footer-logo mb-3">
+                <a href="#">
+                  <img src="img/footer-logo.png" />
+                </a>
+              </div>
+              <div class="wu-footer-socials mb-3">
+                <a href="#" target="_blank">
+                  <img src="img/icon _telegram plane_.svg" />
+                </a>
+                <a href="#" target="_blank">
+                  <img src="img/icon _youtube_.svg" />
+                </a>
+                <a href="#" target="_blank">
+                  <img src="img/Instagram.svg" />
+                </a>
+                <a href="#" target="_blank">
+                  <img src="img/Facebook.svg" />
+                </a>
+                <a href="#" target="_blank">
+                  <img src="img/LinkedIn.svg" />
+                </a>
+              </div>
+              <div class="wu-footer-number mb-3">
+                <a href="tel:(+ 99871) 238-74-20">(+ 99871) 238-74-20</a>
+              </div>
+              <div class="wu-footer-email mb-3">
+                <a href="mailto:lrc@wiut.uz">lrc@wiut.uz</a>
+              </div>
+              <div class="wu-footer-address">
+                12 Istiqbol St, Tashkent 100047 Uzbekistan
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="wu-footer-title">Opening Hours</div>
+              <ul class="wu-footer-list">
+                <div class="wu-semester">During semester</div>
+                <div>Mon - Fri <span class="wu-red">9:00 - 19:45</span></div>
+                <div>Saturday <span class="wu-red">9:00-17:45</span></div>
+                <div>Sunday <span class="wu-red">Closed</span></div>
+                <div class="wu-semester">Off semester</div>
+                <div>Mon-Fri <span class="wu-red">9:00 - 17:45</span></div>
+                <div>Sat-Sun <span class="wu-red">Closed</span></div>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <div class="wu-footer-title">Get help</div>
+              <ul class="wu-footer-list">
+                <li>
+                  <a href="#">Get help</a>
+                </li>
+                <li>
+                  <a href="#">WIUT Citation and Referencing Guide</a>
+                </li>
+                <li>
+                  <a href="#">Databases A-Z</a>
+                </li>
+                <li>
+                  <a href="#">Research Support</a>
+                </li>
+                <li>
+                  <a href="#">Ask Subject Librarian</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <div class="wu-footer-title">Menu</div>
+              <ul class="wu-footer-list">
+                <li>
+                  <a href="#">About us</a>
+                </li>
+                <li>
+                  <a href="#">Dissertations</a>
+                </li>
+                <li>
+                  <a href="#">Databases A-Z</a>
+                </li>
+                <li>
+                  <a href="#">Book Club</a>
+                </li>
+                <li>
+                  <a href="#">The1Book</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="wu-footer-bottom py-3 d-flex justify-content-between">
+          <div class="wu-footer-bottom-left">2023 WIUT LRC</div>
+          <div class="wu-footer-bottom-right">
+            <a href="#">LRC on WIUT website</a>
+            <a href="#">FAQ</a>
+            <a href="#">Library regulations</a>
+            <a href="#">Registration form</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#top" id="back-top">
+      <img alt="To Top" src="/img/top_ic.svg" />
+    </a>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/poper.min.js"></script>
+    <script src="/js/bootstrap.min.js" async></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/jquery.inputmask.bundle.js"></script>
+    <script src="/js/sweet.alert.min.js"></script>
+    <script src="/js/app.js?v=1.0.4"></script>
+  </body>
+</html>
