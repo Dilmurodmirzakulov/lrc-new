@@ -18,662 +18,548 @@
 
   <body id="#top">
     <header>
-      <nav class="navbar navbar-expand-lg wu-navbar">
+      <nav class="wu-header">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="./img/Group 7.svg" alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars" style="color: #ffffff"></i>
-          </button>
-          <div
-            class="collapse navbar-collapse flex-column-reverse justify-content-between"
-            id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto wu-nav-links">
-              <li class="nav-item dropdown d-none d-md-block">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Resources
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="25"
-                      viewBox="0 0 24 25"
-                      fill="none">
+          <div class="wu-navbar-wrapper">
+            <div class="wu-navbar-container">
+              <a class="wu-header-logo" href="#">
+                <img src="./img/Group 7.svg" alt="" />
+              </a>
+              <div class="wu-header-right wu-desktop">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search here" aria-describedby="basic-addon2" />
+                  <span class="input-group-addon" id="basic-addon2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12.3982 16.1629C12.1785 16.3826 11.8224 16.3826 11.6027 16.1629L5.86788 10.428C5.64821 10.2084 5.64821 9.85227 5.86788 9.63259L6.13305 9.36739C6.35271 9.14772 6.70887 9.14772 6.92854 9.36739L12.0005 14.4393L17.0724 9.36739C17.2921 9.14772 17.6482 9.14772 17.8679 9.36739L18.1331 9.63259C18.3527 9.85227 18.3527 10.2084 18.1331 10.428L12.3982 16.1629Z"
-                        fill="#F4F4F4" />
+                        d="M14.5918 3.64586C11.6893 3.64586 8.90569 4.79887 6.85332 6.85124C4.80096 8.90361 3.64795 11.6872 3.64795 14.5897C3.64795 17.4922 4.80096 20.2758 6.85332 22.3282C8.90569 24.3805 11.6893 25.5335 14.5918 25.5335C17.4943 25.5335 20.2779 24.3805 22.3303 22.3282C24.3826 20.2758 25.5356 17.4922 25.5356 14.5897C25.5356 11.6872 24.3826 8.90361 22.3303 6.85124C20.2779 4.79887 17.4943 3.64586 14.5918 3.64586ZM9.01339e-08 14.5897C0.000332558 12.2675 0.554886 9.97897 1.61757 7.91422C2.68026 5.84947 4.22039 4.06816 6.10996 2.71834C7.99953 1.36852 10.184 0.48917 12.4817 0.153371C14.7795 -0.182428 17.1242 0.0350218 19.3211 0.78765C21.5179 1.54028 23.5034 2.80635 25.1125 4.48063C26.7216 6.15492 27.9079 8.18908 28.5727 10.414C29.2376 12.639 29.3618 14.9905 28.9351 17.2731C28.5084 19.5558 27.543 21.7036 26.1193 23.5381L35.945 33.3639C36.2773 33.7079 36.4611 34.1686 36.457 34.6468C36.4528 35.1251 36.261 35.5826 35.9228 35.9207C35.5847 36.2589 35.1272 36.4507 34.6489 36.4549C34.1707 36.4591 33.71 36.2752 33.3659 35.943L23.5402 26.1172C21.3833 27.7918 18.7997 28.8275 16.0834 29.1067C13.367 29.3858 10.6268 28.8971 8.17441 27.6962C5.72199 26.4953 3.65577 24.6303 2.2107 22.3133C0.76563 19.9963 -0.000303364 17.3204 9.01339e-08 14.5897Z"
+                        fill="black" />
                     </svg>
                   </span>
-                </a>
-                <ul class="dropdown-menu wu-dropdown">
-                  <div class="row">
-                    <div class="col-md-9">
-                      <div class="wu-dropdown-intro-title mb-3">
-                        Featured from News
-                      </div>
-                      <div class="mb-3 row wu-library-row">
-                        <div class="col-md-4">
-                          <div class="wu-dropdown-img">
-                            <img src="/img/dropdown-1.png" />
+                </div>
+                <ul class="wu-header-right-list">
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Resources
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.3982 16.1629C12.1785 16.3826 11.8224 16.3826 11.6027 16.1629L5.86788 10.428C5.64821 10.2084 5.64821 9.85227 5.86788 9.63259L6.13305 9.36739C6.35271 9.14772 6.70887 9.14772 6.92854 9.36739L12.0005 14.4393L17.0724 9.36739C17.2921 9.14772 17.6482 9.14772 17.8679 9.36739L18.1331 9.63259C18.3527 9.85227 18.3527 10.2084 18.1331 10.428L12.3982 16.1629Z"
+                            fill="#F4F4F4" />
+                        </svg>
+                      </span>
+                    </a>
+                    <ul class="dropdown-menu wu-dropdown">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <div class="wu-dropdown-intro-title">
+                            Featured from News
                           </div>
-                        </div>
-                        <div class="col-md-8">
-                          <div class="wu-dropdown-content">
-                            <h4 class="wu-dropdown-title">
-                              “HARRY POTTER” session
-                            </h4>
-                            <div class="wu-dropdown-desc">
-                              This Book Club session is facilitated by WIUT
-                              student - Amirkhon Rakhmatkariev
+                          <div class="row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
                             </div>
-                            <a href="#">Read more</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="mb-3 row wu-library-row">
-                        <div class="col-md-4">
-                          <div class="wu-dropdown-img">
-                            <img src="/img/dropdown-1.png" />
-                          </div>
-                        </div>
-                        <div class="col-md-8">
-                          <div class="wu-dropdown-content">
-                            <h4 class="wu-dropdown-title">
-                              “HARRY POTTER” session
-                            </h4>
-                            <div class="wu-dropdown-desc">
-                              This Book Club session is facilitated by WIUT
-                              student - Amirkhon Rakhmatkariev
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
                             </div>
-                            <a href="#">Read more</a>
+                          </div>
+                          <div class="row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="wu-see-all-news" href="#">See all news
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                                  fill="black" />
+                              </svg></span></a>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="wu-right-side">
+                            <ul class="nav">
+                              <li class="">
+                                <a href="#">Collections</a>
+                              </li>
+                              <li class="">
+                                <a href="#">Databases</a>
+                              </li>
+                              <li class="">
+                                <a href="#">Dissertations</a>
+                              </li>
+                            </ul>
                           </div>
                         </div>
                       </div>
-                      <a href="#"
-                        >See all news
-                        <span
-                          ><svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none">
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
-                              fill="black" /></svg></span
-                      ></a>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="wu-right-side">
-                        <ul class="nav">
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Collections</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Databases</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Dissertations</a>
-                          </li>
-                        </ul>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.3982 16.1629C12.1785 16.3826 11.8224 16.3826 11.6027 16.1629L5.86788 10.428C5.64821 10.2084 5.64821 9.85227 5.86788 9.63259L6.13305 9.36739C6.35271 9.14772 6.70887 9.14772 6.92854 9.36739L12.0005 14.4393L17.0724 9.36739C17.2921 9.14772 17.6482 9.14772 17.8679 9.36739L18.1331 9.63259C18.3527 9.85227 18.3527 10.2084 18.1331 10.428L12.3982 16.1629Z"
+                            fill="#F4F4F4" />
+                        </svg>
+                      </span>
+                    </a>
+                    <ul class="dropdown-menu wu-dropdown">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <div class="wu-dropdown-intro-title">
+                            Featured from News
+                          </div>
+                          <div class="row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="wu-see-all-news" href="#">See all news
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                                  fill="black" />
+                              </svg></span></a>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="wu-right-side">
+                            <ul class="nav">
+                              <li class="">
+                                <a href="#">Book Club</a>
+                              </li>
+                              <li class="">
+                                <a href="#">The1Book</a>
+                              </li>
+                              <li class="">
+                                <a href="#">Essential skills</a>
+                              </li>
+                              <li class="">
+                                <a href="#">IDL Course</a>
+                              </li>
+                              <li class="">
+                                <a href="#">O'tkan kunlar</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Help
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.3982 16.1629C12.1785 16.3826 11.8224 16.3826 11.6027 16.1629L5.86788 10.428C5.64821 10.2084 5.64821 9.85227 5.86788 9.63259L6.13305 9.36739C6.35271 9.14772 6.70887 9.14772 6.92854 9.36739L12.0005 14.4393L17.0724 9.36739C17.2921 9.14772 17.6482 9.14772 17.8679 9.36739L18.1331 9.63259C18.3527 9.85227 18.3527 10.2084 18.1331 10.428L12.3982 16.1629Z"
+                            fill="#F4F4F4" />
+                        </svg>
+                      </span>
+                    </a>
+                    <ul class="dropdown-menu wu-dropdown">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <div class="wu-dropdown-intro-title">
+                            Featured from News
+                          </div>
+                          <div class="row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="wu-see-all-news" href="#">See all news
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                                  fill="black" />
+                              </svg></span></a>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="wu-right-side">
+                            <ul class="nav">
+                              <li class="">
+                                <a href="#">Ask Subject Librarian</a>
+                              </li>
+                              <li class="">
+                                <a href="#">Video Tutorials</a>
+                              </li>
+                              <li class="">
+                                <a href="#">Citing and Referencing</a>
+                              </li>
+                              <li class="">
+                                <a href="#">Research Support</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#"> About us</a>
+                  </li>
+                  <li class="">
+                    <button class="btn btn-light wu-header-btn">Log in</button>
+                  </li>
                 </ul>
-              </li>
-              <li class="nav-item dropdown d-none d-md-block">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Projects
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="25"
-                      viewBox="0 0 24 25"
-                      fill="none">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12.3982 16.1629C12.1785 16.3826 11.8224 16.3826 11.6027 16.1629L5.86788 10.428C5.64821 10.2084 5.64821 9.85227 5.86788 9.63259L6.13305 9.36739C6.35271 9.14772 6.70887 9.14772 6.92854 9.36739L12.0005 14.4393L17.0724 9.36739C17.2921 9.14772 17.6482 9.14772 17.8679 9.36739L18.1331 9.63259C18.3527 9.85227 18.3527 10.2084 18.1331 10.428L12.3982 16.1629Z"
-                        fill="#F4F4F4" />
-                    </svg>
-                  </span>
-                </a>
-                <ul class="dropdown-menu wu-dropdown">
-                  <div class="row">
-                    <div class="col-md-9">
-                      <div class="wu-dropdown-intro-title mb-3">
-                        Featured from News
-                      </div>
-                      <div class="mb-3 row wu-library-row">
-                        <div class="col-md-4">
-                          <div class="wu-dropdown-img">
-                            <img src="/img/dropdown-1.png" />
-                          </div>
-                        </div>
-                        <div class="col-md-8">
-                          <div class="wu-dropdown-content">
-                            <h4 class="wu-dropdown-title">
-                              “HARRY POTTER” session
-                            </h4>
-                            <div class="wu-dropdown-desc">
-                              This Book Club session is facilitated by WIUT
-                              student - Amirkhon Rakhmatkariev
-                            </div>
-                            <a href="#">Read more</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="mb-3 row wu-library-row">
-                        <div class="col-md-4">
-                          <div class="wu-dropdown-img">
-                            <img src="/img/dropdown-1.png" />
-                          </div>
-                        </div>
-                        <div class="col-md-8">
-                          <div class="wu-dropdown-content">
-                            <h4 class="wu-dropdown-title">
-                              “HARRY POTTER” session
-                            </h4>
-                            <div class="wu-dropdown-desc">
-                              This Book Club session is facilitated by WIUT
-                              student - Amirkhon Rakhmatkariev
-                            </div>
-                            <a href="#">Read more</a>
-                          </div>
-                        </div>
-                      </div>
-                      <a href="#"
-                        >See all news
-                        <span
-                          ><svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none">
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
-                              fill="black" /></svg></span
-                      ></a>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="wu-right-side">
-                        <ul class="nav">
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Book Club</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">The1Book</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Essential skills</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">IDL Course</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">O'tkan kunlar</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </ul>
-              </li>
-              <li class="nav-item dropdown d-none d-md-block">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Help
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="25"
-                      viewBox="0 0 24 25"
-                      fill="none">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M12.3982 16.1629C12.1785 16.3826 11.8224 16.3826 11.6027 16.1629L5.86788 10.428C5.64821 10.2084 5.64821 9.85227 5.86788 9.63259L6.13305 9.36739C6.35271 9.14772 6.70887 9.14772 6.92854 9.36739L12.0005 14.4393L17.0724 9.36739C17.2921 9.14772 17.6482 9.14772 17.8679 9.36739L18.1331 9.63259C18.3527 9.85227 18.3527 10.2084 18.1331 10.428L12.3982 16.1629Z"
-                        fill="#F4F4F4" />
-                    </svg>
-                  </span>
-                </a>
-                <ul class="dropdown-menu wu-dropdown">
-                  <div class="row">
-                    <div class="col-md-9">
-                      <div class="wu-dropdown-intro-title mb-3">
-                        Featured from News
-                      </div>
-                      <div class="mb-3 row wu-library-row">
-                        <div class="col-md-4">
-                          <div class="wu-dropdown-img">
-                            <img src="/img/dropdown-1.png" />
-                          </div>
-                        </div>
-                        <div class="col-md-8">
-                          <div class="wu-dropdown-content">
-                            <h4 class="wu-dropdown-title">
-                              “HARRY POTTER” session
-                            </h4>
-                            <div class="wu-dropdown-desc">
-                              This Book Club session is facilitated by WIUT
-                              student - Amirkhon Rakhmatkariev
-                            </div>
-                            <a href="#">Read more</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="mb-3 row wu-library-row">
-                        <div class="col-md-4">
-                          <div class="wu-dropdown-img">
-                            <img src="/img/dropdown-1.png" />
-                          </div>
-                        </div>
-                        <div class="col-md-8">
-                          <div class="wu-dropdown-content">
-                            <h4 class="wu-dropdown-title">
-                              “HARRY POTTER” session
-                            </h4>
-                            <div class="wu-dropdown-desc">
-                              This Book Club session is facilitated by WIUT
-                              student - Amirkhon Rakhmatkariev
-                            </div>
-                            <a href="#">Read more</a>
-                          </div>
-                        </div>
-                      </div>
-                      <a href="#"
-                        >See all news
-                        <span
-                          ><svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none">
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
-                              fill="black" /></svg></span
-                      ></a>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="wu-right-side">
-                        <ul class="nav">
-                          <li class="nav-item">
-                            <a class="nav-link" href="#"
-                              >Ask Subject Librarian</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Video Tutorials</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#"
-                              >Citing and Referencing</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Research Support</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </ul>
-              </li>
-              <li class="nav-item d-none d-md-block">
-                <a class="nav-link" href="#"> About us</a>
-              </li>
-              <li class="nav-item d-md-none">
-                <div class="d-inline-flex gap-1">
-                  <button
-                    class="btn w-100 text-white wu-mobile-nav-link"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseResources"
-                    aria-expanded="false"
-                    aria-controls="collapseResources">
-                    Resources
-                  </button>
-                </div>
-                <div class="collapse" id="collapseResources">
-                  <div class="card card-body">
-                    <div class="row d-flex flex-column-reverse">
-                      <div class="col-md-9">
-                        <div class="wu-dropdown-intro-title mb-3">
-                          Featured from News
-                        </div>
-                        <div class="mb-3 row wu-library-row">
-                          <div class="col-md-4">
-                            <div class="wu-dropdown-img">
-                              <img src="/img/dropdown-1.png" />
-                            </div>
-                          </div>
-                          <div class="col-md-8">
-                            <div class="wu-dropdown-content">
-                              <h4 class="wu-dropdown-title">
-                                “HARRY POTTER” session
-                              </h4>
-                              <div class="wu-dropdown-desc">
-                                This Book Club session is facilitated by WIUT
-                                student - Amirkhon Rakhmatkariev
-                              </div>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="mb-3 row wu-library-row">
-                          <div class="col-md-4">
-                            <div class="wu-dropdown-img">
-                              <img src="/img/dropdown-1.png" />
-                            </div>
-                          </div>
-                          <div class="col-md-8">
-                            <div class="wu-dropdown-content">
-                              <h4 class="wu-dropdown-title">
-                                “HARRY POTTER” session
-                              </h4>
-                              <div class="wu-dropdown-desc">
-                                This Book Club session is facilitated by WIUT
-                                student - Amirkhon Rakhmatkariev
-                              </div>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <a href="#"
-                          >See all news
-                          <span
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none">
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
-                                fill="black" /></svg></span
-                        ></a>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="wu-right-side">
-                          <ul class="nav">
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Collections</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Databases</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Dissertations</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item d-md-none">
-                <div class="d-inline-flex gap-1">
-                  <button
-                    class="btn w-100 text-white wu-mobile-nav-link"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseProjects"
-                    aria-expanded="false"
-                    aria-controls="collapseProjects">
-                    Projects
-                  </button>
-                </div>
-                <div class="collapse" id="collapseProjects">
-                  <div class="card card-body">
-                    <div class="row d-flex flex-column-reverse">
-                      <div class="col-md-9">
-                        <div class="wu-dropdown-intro-title mb-3">
-                          Featured from News
-                        </div>
-                        <div class="mb-3 row wu-library-row">
-                          <div class="col-md-4">
-                            <div class="wu-dropdown-img">
-                              <img src="/img/dropdown-1.png" />
-                            </div>
-                          </div>
-                          <div class="col-md-8">
-                            <div class="wu-dropdown-content">
-                              <h4 class="wu-dropdown-title">
-                                “HARRY POTTER” session
-                              </h4>
-                              <div class="wu-dropdown-desc">
-                                This Book Club session is facilitated by WIUT
-                                student - Amirkhon Rakhmatkariev
-                              </div>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="mb-3 row wu-library-row">
-                          <div class="col-md-4">
-                            <div class="wu-dropdown-img">
-                              <img src="/img/dropdown-1.png" />
-                            </div>
-                          </div>
-                          <div class="col-md-8">
-                            <div class="wu-dropdown-content">
-                              <h4 class="wu-dropdown-title">
-                                “HARRY POTTER” session
-                              </h4>
-                              <div class="wu-dropdown-desc">
-                                This Book Club session is facilitated by WIUT
-                                student - Amirkhon Rakhmatkariev
-                              </div>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <a href="#"
-                          >See all news
-                          <span
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none">
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
-                                fill="black" /></svg></span
-                        ></a>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="wu-right-side">
-                          <ul class="nav">
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Book Club</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">The1Book</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Essential skills</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">IDL Course</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">O'tkan kunlar</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item d-md-none">
-                <div class="d-inline-flex gap-1">
-                  <button
-                    class="btn w-100 text-white wu-mobile-nav-link"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseHelp"
-                    aria-expanded="false"
-                    aria-controls="collapseHelp">
-                    Help
-                  </button>
-                </div>
-                <div class="collapse" id="collapseHelp">
-                  <div class="card card-body">
-                    <div class="row d-flex flex-column-reverse">
-                      <div class="col-md-9">
-                        <div class="wu-dropdown-intro-title mb-3">
-                          Featured from News
-                        </div>
-                        <div class="mb-3 row wu-library-row">
-                          <div class="col-md-4">
-                            <div class="wu-dropdown-img">
-                              <img src="/img/dropdown-1.png" />
-                            </div>
-                          </div>
-                          <div class="col-md-8">
-                            <div class="wu-dropdown-content">
-                              <h4 class="wu-dropdown-title">
-                                “HARRY POTTER” session
-                              </h4>
-                              <div class="wu-dropdown-desc">
-                                This Book Club session is facilitated by WIUT
-                                student - Amirkhon Rakhmatkariev
-                              </div>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="mb-3 row wu-library-row">
-                          <div class="col-md-4">
-                            <div class="wu-dropdown-img">
-                              <img src="/img/dropdown-1.png" />
-                            </div>
-                          </div>
-                          <div class="col-md-8">
-                            <div class="wu-dropdown-content">
-                              <h4 class="wu-dropdown-title">
-                                “HARRY POTTER” session
-                              </h4>
-                              <div class="wu-dropdown-desc">
-                                This Book Club session is facilitated by WIUT
-                                student - Amirkhon Rakhmatkariev
-                              </div>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <a href="#"
-                          >See all news
-                          <span
-                            ><svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none">
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
-                                fill="black" /></svg></span
-                        ></a>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="wu-right-side">
-                          <ul class="nav">
-                            <li class="nav-item">
-                              <a class="nav-link" href="#"
-                                >Ask Subject Librarian</a
-                              >
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Video Tutorials</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#"
-                                >Citing and Referencing</a
-                              >
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Research Support</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item d-md-none">
-                <a class="nav-link wu-mobile-nav-link" href="#"> About us</a>
-              </li>
-              <li class="nav-item">
-                <button class="btn btn-light wu-header-btn">Log in</button>
-              </li>
-            </ul>
-            <form class="d-flex ms-auto w-50" role="search">
-              <div class="input-group mb-4">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Search here"
-                  aria-label="Search here"
-                  aria-describedby="basic-addon2" />
-                <span class="input-group-text" id="basic-addon2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="37"
-                    height="37"
-                    viewBox="0 0 37 37"
-                    fill="none">
-                    <path
-                      d="M14.5918 3.64586C11.6893 3.64586 8.90569 4.79887 6.85332 6.85124C4.80096 8.90361 3.64795 11.6872 3.64795 14.5897C3.64795 17.4922 4.80096 20.2758 6.85332 22.3282C8.90569 24.3805 11.6893 25.5335 14.5918 25.5335C17.4943 25.5335 20.2779 24.3805 22.3303 22.3282C24.3826 20.2758 25.5356 17.4922 25.5356 14.5897C25.5356 11.6872 24.3826 8.90361 22.3303 6.85124C20.2779 4.79887 17.4943 3.64586 14.5918 3.64586ZM9.01339e-08 14.5897C0.000332558 12.2675 0.554886 9.97897 1.61757 7.91422C2.68026 5.84947 4.22039 4.06816 6.10996 2.71834C7.99953 1.36852 10.184 0.48917 12.4817 0.153371C14.7795 -0.182428 17.1242 0.0350218 19.3211 0.78765C21.5179 1.54028 23.5034 2.80635 25.1125 4.48063C26.7216 6.15492 27.9079 8.18908 28.5727 10.414C29.2376 12.639 29.3618 14.9905 28.9351 17.2731C28.5084 19.5558 27.543 21.7036 26.1193 23.5381L35.945 33.3639C36.2773 33.7079 36.4611 34.1686 36.457 34.6468C36.4528 35.1251 36.261 35.5826 35.9228 35.9207C35.5847 36.2589 35.1272 36.4507 34.6489 36.4549C34.1707 36.4591 33.71 36.2752 33.3659 35.943L23.5402 26.1172C21.3833 27.7918 18.7997 28.8275 16.0834 29.1067C13.367 29.3858 10.6268 28.8971 8.17441 27.6962C5.72199 26.4953 3.65577 24.6303 2.2107 22.3133C0.76563 19.9963 -0.000303364 17.3204 9.01339e-08 14.5897Z"
-                      fill="black" />
-                  </svg>
-                </span>
               </div>
-            </form>
+              <button class="btn wu-mobile-btn wu-mobile" type="button" data-toggle="collapse"
+                data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff"></i>
+              </button>
+            </div>
+            <div class="collapse" id="collapseExample1">
+              <div class="well wu-mobile wu-first-well">
+                <li>
+                  <a class="btn wu-mobile-link" role="button" data-toggle="collapse" href="#collapseExample2"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Resources
+                  </a>
+                  <div class="collapse" id="collapseExample2">
+                    <div class="well">
+                      <div class="row flex-column-reverse">
+                        <div class="col-md-3">
+                          <div class="wu-right-side">
+                            <ul class="nav">
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Collections</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Databases</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Dissertations</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="wu-dropdown-intro-title mb-3">
+                            Featured from News
+                          </div>
+                          <div class="mb-3 row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="mb-3 row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="wu-d-flex" href="#">See all news
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                                  fill="black" />
+                              </svg></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="btn wu-mobile-link" role="button" data-toggle="collapse" href="#collapseExample3"
+                    aria-expanded="false" aria-controls="collapseExample3">
+                    Projects
+                  </a>
+                  <div class="collapse" id="collapseExample3">
+                    <div class="well">
+                      <div class="row flex-column-reverse">
+                        <div class="col-md-3">
+                          <div class="wu-right-side">
+                            <ul class="nav">
+                              <li class="">
+                                <a href="#">Book Club</a>
+                              </li>
+                              <li class="">
+                                <a href="#">The1Book</a>
+                              </li>
+                              <li class="">
+                                <a href="#">Essential skills</a>
+                              </li>
+                              <li class="">
+                                <a href="#">IDL Course</a>
+                              </li>
+                              <li class="">
+                                <a href="#">O'tkan kunlar</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="wu-dropdown-intro-title mb-3">
+                            Featured from News
+                          </div>
+                          <div class="mb-3 row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="mb-3 row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="wu-d-flex" href="#">See all news
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                                  fill="black" />
+                              </svg></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="btn wu-mobile-link" role="button" data-toggle="collapse" href="#collapseExample4"
+                    aria-expanded="false" aria-controls="collapseExample4">
+                    Help
+                  </a>
+                  <div class="collapse" id="collapseExample4">
+                    <div class="well">
+                      <div class="row flex-column-reverse">
+                        <div class="col-md-3">
+                          <div class="wu-right-side">
+                            <ul class="nav">
+                              <li class="">
+                                <a href="#">Ask Subject Librarian</a>
+                              </li>
+                              <li class="">
+                                <a href="#">Video Tutorials</a>
+                              </li>
+                              <li class="">
+                                <a href="#">Citing and Referencing</a>
+                              </li>
+                              <li class="">
+                                <a href="#">Research Support</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="wu-dropdown-intro-title mb-3">
+                            Featured from News
+                          </div>
+                          <div class="mb-3 row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="mb-3 row wu-library-row">
+                            <div class="col-md-4">
+                              <div class="wu-dropdown-img">
+                                <img src="/img/dropdown-1.png" />
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="wu-dropdown-content">
+                                <h4 class="wu-dropdown-title">
+                                  “HARRY POTTER” session
+                                </h4>
+                                <div class="wu-dropdown-desc">
+                                  This Book Club session is facilitated by WIUT
+                                  student - Amirkhon Rakhmatkariev
+                                </div>
+                                <a href="#">Read more</a>
+                              </div>
+                            </div>
+                          </div>
+                          <a class="wu-d-flex" href="#">See all news
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M14.9603 11.1423C15.18 11.362 15.18 11.7181 14.9603 11.9378L9.22541 17.6727C9.00573 17.8923 8.64963 17.8923 8.42996 17.6727L8.16476 17.4075C7.94508 17.1878 7.94508 16.8317 8.16476 16.612L13.2367 11.5401L8.16476 6.46812C7.94508 6.24844 7.94508 5.89234 8.16476 5.67267L8.42996 5.40747C8.64963 5.18779 9.00573 5.18779 9.22541 5.40747L14.9603 11.1423Z"
+                                  fill="black" />
+                              </svg></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="wu-mobile-link btn" href="#"> About us</a>
+                </li>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search here" aria-describedby="basic-addon2" />
+                  <span class="input-group-addon" id="basic-addon2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
+                      <path
+                        d="M14.5918 3.64586C11.6893 3.64586 8.90569 4.79887 6.85332 6.85124C4.80096 8.90361 3.64795 11.6872 3.64795 14.5897C3.64795 17.4922 4.80096 20.2758 6.85332 22.3282C8.90569 24.3805 11.6893 25.5335 14.5918 25.5335C17.4943 25.5335 20.2779 24.3805 22.3303 22.3282C24.3826 20.2758 25.5356 17.4922 25.5356 14.5897C25.5356 11.6872 24.3826 8.90361 22.3303 6.85124C20.2779 4.79887 17.4943 3.64586 14.5918 3.64586ZM9.01339e-08 14.5897C0.000332558 12.2675 0.554886 9.97897 1.61757 7.91422C2.68026 5.84947 4.22039 4.06816 6.10996 2.71834C7.99953 1.36852 10.184 0.48917 12.4817 0.153371C14.7795 -0.182428 17.1242 0.0350218 19.3211 0.78765C21.5179 1.54028 23.5034 2.80635 25.1125 4.48063C26.7216 6.15492 27.9079 8.18908 28.5727 10.414C29.2376 12.639 29.3618 14.9905 28.9351 17.2731C28.5084 19.5558 27.543 21.7036 26.1193 23.5381L35.945 33.3639C36.2773 33.7079 36.4611 34.1686 36.457 34.6468C36.4528 35.1251 36.261 35.5826 35.9228 35.9207C35.5847 36.2589 35.1272 36.4507 34.6489 36.4549C34.1707 36.4591 33.71 36.2752 33.3659 35.943L23.5402 26.1172C21.3833 27.7918 18.7997 28.8275 16.0834 29.1067C13.367 29.3858 10.6268 28.8971 8.17441 27.6962C5.72199 26.4953 3.65577 24.6303 2.2107 22.3133C0.76563 19.9963 -0.000303364 17.3204 9.01339e-08 14.5897Z"
+                        fill="black" />
+                    </svg>
+                  </span>
+                </div>
+    
+              </div>
+            </div>
           </div>
         </div>
       </nav>
@@ -712,15 +598,15 @@
     </main>
     <footer class="wu-footer">
       <div class="container">
-        <div class="wu-footer-container mb-4">
+        <div class="wu-footer-container">
           <div class="row">
             <div class="col-md-6">
-              <div class="wu-footer-logo mb-3">
+              <div class="wu-footer-logo">
                 <a href="#">
                   <img src="img/footer-logo.png" />
                 </a>
               </div>
-              <div class="wu-footer-socials mb-3">
+              <div class="wu-footer-socials">
                 <a href="#" target="_blank">
                   <img src="img/icon _telegram plane_.svg" />
                 </a>
@@ -737,10 +623,10 @@
                   <img src="img/LinkedIn.svg" />
                 </a>
               </div>
-              <div class="wu-footer-number mb-3">
+              <div class="wu-footer-number">
                 <a href="tel:(+ 99871) 238-74-20">(+ 99871) 238-74-20</a>
               </div>
-              <div class="wu-footer-email mb-3">
+              <div class="wu-footer-email">
                 <a href="mailto:lrc@wiut.uz">lrc@wiut.uz</a>
               </div>
               <div class="wu-footer-address">
@@ -801,7 +687,7 @@
             </div>
           </div>
         </div>
-        <div class="wu-footer-bottom py-3 d-flex justify-content-between">
+        <div class="wu-footer-bottom">
           <div class="wu-footer-bottom-left">2023 WIUT LRC</div>
           <div class="wu-footer-bottom-right">
             <a href="#">LRC on WIUT website</a>

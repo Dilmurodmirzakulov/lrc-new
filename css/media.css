@@ -126,8 +126,8 @@
     margin-bottom: 2rem !important;
   }
   .wu-order {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
   }
   .wu-ordered:nth-child(1) {
     order: 2;
